@@ -1,0 +1,31 @@
+.adds-banner-1 {
+    width: 970px;
+    height: 50px;
+    background-color: #C4C4C4;
+    border: solid 1px #C4C4C4;
+}
+
+.adds-banner-1 h3 {
+    margin: 0px;
+    color: #5A5A5A;
+}
+
+.adds-banner-2 {
+    width: 970px;
+    height: 250px;
+    background-color: #C4C4C4;
+    border: solid 1px #C4C4C4;
+    margin: 0px;
+   
+}
+
+.adds-banner-2 h3 {
+    color: #5A5A5A;
+}
+ 
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}

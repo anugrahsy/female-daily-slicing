@@ -1,0 +1,15 @@
+import LatestArticle from "./LatestArticle";
+import ProductRecomendation from "./ProductRecomendation";
+import EditorsChoice from "./EditorsChoice";
+
+const Home = () => {
+    return (
+        <div className="home">
+            <EditorsChoice></EditorsChoice>
+            <LatestArticle></LatestArticle>
+            <ProductRecomendation></ProductRecomendation>
+        </div>
+    )
+}
+
+export default Home;
