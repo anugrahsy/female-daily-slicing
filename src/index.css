@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/* 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -46,7 +46,43 @@ code {
   text-align: center;
 }
 
+
+ .thumbnail {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  min-width: 40%;
+  border-radius: 5px;
+}
+
+.thumbnail-description {
+  min-height: 40px;
+}
+
+.thumbnail:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+} */
+
+.btn-login {
+  width: 222px;
+  height: 58px;
+  color: white;
+  background-color: #DA254E;;
+  border: none;
+  /* float: right; */
+}
+
+.nav-menu {
+  border-top: 2px solid #e0e0e0;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.nav-menu-wrapper {
+height: 44px;
+}
+
 .nav-menu a {
+  font-family: 'Montserrat';
   text-decoration: none;
   margin-left: 10px;
   color: inherit;
@@ -55,6 +91,7 @@ code {
   border-radius: 4px;
   transition: all .2s;
   text-align: center;
+  font-size:14.5px;
 }
 
 .nav-menu a:hover
@@ -62,3 +99,22 @@ code {
    color: #DA254E;
    text-decoration: none;
  }
+
+
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.section-description {
+  font-size: 21px;
+  color: #b0b0b0;
+  font-weight: 500;
+}
+
+.section-see-more {
+  font-size: 21px;
+  color: #DA254E;
+  font-weight: 500;
+}

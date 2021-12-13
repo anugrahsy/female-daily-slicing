@@ -1,6 +1,7 @@
 import LatestArticle from "./LatestArticle";
 import ProductRecomendation from "./ProductRecomendation";
 import EditorsChoice from "./EditorsChoice";
+import LatestVideos from "./LatestVideos";
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
             <EditorsChoice></EditorsChoice>
             <ProductRecomendation></ProductRecomendation>
             <LatestArticle></LatestArticle>
+            <LatestVideos></LatestVideos>
         </div>
     )
 }

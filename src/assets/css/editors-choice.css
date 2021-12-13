@@ -2,30 +2,35 @@
     width: 970px;
     height: 50px;
     background-color: #C4C4C4;
-    border: solid 1px #C4C4C4;
+    border: solid 2.2px #A7A7A7;
 }
 
 .adds-banner-1 h3 {
-    margin: 0px;
     color: #5A5A5A;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    margin: 0px;
 }
 
 .adds-banner-2 {
     width: 970px;
     height: 250px;
     background-color: #C4C4C4;
-    border: solid 1px #C4C4C4;
-    margin: 0px;
-   
+    border: solid 2.2px #A7A7A7;
 }
 
 .adds-banner-2 h3 {
     color: #5A5A5A;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    margin: 0px;
 }
- 
 
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
+.editors-choice-container {
+    margin-bottom: 60px;
+}
+
+.section-paddings {
+    padding-left: 90px;
+    padding-right: 90px;
 }
