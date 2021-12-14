@@ -1,0 +1,27 @@
+.article-card {
+    width: 22.2rem;
+    border: none;
+}
+
+.card-body-article {
+    padding: 0px;
+}
+.card-text {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0px;
+    font-family: 'Montserrat';
+}
+
+.autor-text {
+    font-size: 15px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #5F5F5F;
+}
+
+.article-text-time {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: #CBCBCB;
+}

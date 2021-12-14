@@ -2,7 +2,8 @@
 import './App.css';
 import './assets/css/editors-choice.css'
 import './assets/css/product-recomendation.css'
-import './assets/css/product-recomendation.css'
+// import './assets/css/product-recomendation.css'
+import './assets/css/latest-article.css'
 import Home from './component/Home';
 import Navbar from './component/Navbar';
 
