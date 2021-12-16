@@ -18,7 +18,7 @@ const Navbars = () => {
                         <a className="navbar-brand" href="#" style={{paddingTop: "17px", paddingLeft: "0px"}}><img src={FemaleDailyLogo} width="154px" height="28px" className="navbar-icon"></img></a>
                     </div>
 
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         {/* <ul class="nav navbar-nav
                             <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
                             <li><a href="#">Link</a></li>

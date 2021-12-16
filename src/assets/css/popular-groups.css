@@ -1,0 +1,32 @@
+.popular-card {
+    width: 255px;
+    border: none;
+    border-radius: 0.5rem !important;
+}
+
+.popular-card:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.card-img-popular {
+    width: 180px;
+    height: 180px;
+}
+
+.popular-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.popular-title:hover {
+   color: #DA254E;
+   cursor: pointer;
+}
+
+.popular-text {
+font-size: 14px;
+font-weight: 440;
+
+}
+

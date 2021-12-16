@@ -1,6 +1,6 @@
-import articleImage1 from '../assets/img/article.png';
-
-const LatestArticle = () => {
+const LatestArticle = (props) => {
+    const newDataArticle = props.latestArticleData
+    console.log('cekuiuui ', newDataArticle);
     return (
         <div className="latest-article-component mt-5 mb-5">
             <div className="container">
@@ -18,73 +18,21 @@ const LatestArticle = () => {
                             <p className="section-description">So you kan make better purchase decision</p>
                         </div>
                         <div className="col-md-6 d-flex justify-content-end">
-                            <a href="" style={{ textDecoration: "none" }}><p className="section-see-more">See more <i class="fa fa-chevron-right" aria-hidden="true"></i></p></a>
                         </div>
-                        {/* <div className="col-md-12">
-                    <img src={dummyImage} width="92%"></img>
-                </div> */}
                     </div>
-                    <div className="row">
-                        <div className="col-md-4">
-                            <div className="card article-card">
-                                <img src={articleImage1} className="card-img-top" alt="..." />
-                                <div className="card-body card-body-article mt-3">
-                                    <p className="card-text">9 Best face oil for sensitive skin</p>
-                                    <p className="autor-text mt-1 d-inline-flex">{'Username'} &nbsp; {'|'} &nbsp; <p className="article-text-time">{'2 hours ago'}</p></p>
-                                    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
+                    <div className="row"> {
+                        newDataArticle.map((data) => (
+                            <div className="col-md-4 col-sm-12 mb-3" key={data.id}>
+                                <div className="card article-card">
+                                    <img src={data.image} className="card-img-top" alt="..." />
+                                    <div className="card-body card-body-article mt-3">
+                                        <p className="card-text">{data.title}</p>
+                                        <p className="autor-text mt-1 d-inline-flex">{data.author}<span className="article-text-time">&nbsp; {'|'} &nbsp; {data.published_at}</span></p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-md-4">
-                            <div className="card article-card">
-                                <img src={articleImage1} className="card-img-top" alt="..." />
-                                <div className="card-body card-body-article mt-3">
-                                    <p className="card-text">9 Best face oil for sensitive skin</p>
-                                    <p className="autor-text mt-1 d-inline-flex">{'Username'} &nbsp; {'|'} &nbsp; <p className="article-text-time">{'2 hours ago'}</p></p>
-                                    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4">
-                            <div className="card article-card">
-                                <img src={articleImage1} className="card-img-top" alt="..." />
-                                <div className="card-body card-body-article mt-3">
-                                    <p className="card-text">9 Best face oil for sensitive skin</p>
-                                    <p className="autor-text mt-1 d-inline-flex">{'Username'} &nbsp; {'|'} &nbsp; <p className="article-text-time">{'2 hours ago'}</p></p>
-                                    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4">
-                            <div className="card article-card">
-                                <img src={articleImage1} className="card-img-top" alt="..." />
-                                <div className="card-body card-body-article mt-3">
-                                    <p className="card-text">9 Best face oil for sensitive skin</p>
-                                    <p className="autor-text mt-1 d-inline-flex">{'Username'} &nbsp; {'|'} &nbsp; <p className="article-text-time">{'2 hours ago'}</p></p>
-                                    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4">
-                            <div className="card article-card">
-                                <img src={articleImage1} className="card-img-top" alt="..." />
-                                <div className="card-body card-body-article mt-3">
-                                    <p className="card-text">9 Best face oil for sensitive skin</p>
-                                    <p className="autor-text mt-1 d-inline-flex">{'Username'} &nbsp; {'|'} &nbsp; <p className="article-text-time">{'2 hours ago'}</p></p>
-                                    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4">
-                            <div className="card article-card">
-                                <img src={articleImage1} className="card-img-top" alt="..." />
-                                <div className="card-body card-body-article mt-3">
-                                    <p className="card-text">9 Best face oil for sensitive skin</p>
-                                    <p className="autor-text mt-1 d-inline-flex">{'Username'} &nbsp; {'|'} &nbsp; <p className="article-text-time">{'2 hours ago'}</p></p>
-                                    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
-                                </div>
-                            </div>
-                        </div>
+                        ))
+                    }
                     </div>
                 </div>
             </div>

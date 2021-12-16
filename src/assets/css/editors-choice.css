@@ -3,7 +3,9 @@
     margin-bottom: 60px;
 }
 
-.section-paddings {
-    padding-left: 90px;
-    padding-right: 90px;
+.card-col{
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
 }
+

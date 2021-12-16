@@ -1,0 +1,55 @@
+
+.trending-card {
+    width: 12.3rem;
+    height: 22.2rem;
+    /* border-radius: 10px !important; */
+    border: none !important;
+}
+
+.trending-card:hover {
+    cursor: pointer;
+}
+
+.trending-category {
+    color: #DA254E;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.trending-title {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1rem;
+    margin: 0px;
+}
+
+.trending-title:hover {
+    color: #DA254E;
+}
+
+.trending-text {
+    font-size: 14px;
+    font-weight: 440;
+    margin: 0px;
+}
+
+.trending-text:hover {
+    color: #DA254E;
+}
+
+.trending-text-desc {
+    font-size: 14px;
+    color: #A2A2A2;
+    margin: 0px;
+}
+
+.card-img-trending {
+    width: 180px !important;
+    height: 180px !important;
+}
+
+/* .rating-value {
+    font-size: 15px;
+    font-weight: bold;
+} */

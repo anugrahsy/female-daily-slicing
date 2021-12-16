@@ -1,0 +1,59 @@
+.review-card-title {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.review-card-text {
+ font-size: 16px;
+ font-weight: 500;
+  color: #393939;
+}
+
+.review-card-title:hover {
+    color: #DA254E;
+    cursor: pointer;
+}
+
+.review-card-text:hover {
+    color: #DA254E;
+    cursor: pointer;
+}
+
+.card-review-header {
+    background-color: none !important;
+}
+
+.review-card {
+    width: 20.4rem;
+    border: solid 2px #EFEFEF;
+    border-radius: 0.7rem !important;
+    position: absolute;
+  }
+
+.card-review-description {
+    font-size: 12px !important;
+  }
+
+.card-review-line {
+    border: solid 1px #B0B0B0 ;
+}
+.read-more {
+    color: #DA254E;
+    font-weight: 500;
+}
+
+.read-more:hover {
+    cursor: pointer;
+    color: #df6363;
+}
+
+.testimoni-user {
+    /* margin-top: -40px; */
+}
+
+.revire-time-tex {
+    font-size: 12px;
+    color: #B0B0B0;
+    font-weight: 500;
+}
+  

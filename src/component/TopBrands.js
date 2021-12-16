@@ -11,22 +11,22 @@ const TopBrands = () => {
                     </div>
                     <div className="row mt-2 mb-2">
                         <div className="col-md-2">
-                            <img src={FemaleDailyLogo} width="100%"/>
+                            <img src={FemaleDailyLogo} alt="" width="100%"/>
                         </div>
                         <div className="col-md-2">
-                            <img src={FemaleDailyLogo} width="100%"/>
+                            <img src={FemaleDailyLogo} alt="" width="100%"/>
                         </div>
                         <div className="col-md-2">
-                            <img src={FemaleDailyLogo} width="100%"/>
+                            <img src={FemaleDailyLogo} alt="" width="100%"/>
                         </div>
                         <div className="col-md-2">
-                            <img src={FemaleDailyLogo} width="100%"/>
+                            <img src={FemaleDailyLogo} alt="" width="100%"/>
                         </div>
                         <div className="col-md-2">
-                            <img src={FemaleDailyLogo} width="100%"/>
+                            <img src={FemaleDailyLogo} alt="" width="100%"/>
                         </div>
                         <div className="col-md-2">
-                            <img src={FemaleDailyLogo} width="100%"/>
+                            <img src={FemaleDailyLogo} alt="" width="100%"/>
                         </div>
                     </div>
                     <div className="row mt-4">

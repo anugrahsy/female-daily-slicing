@@ -72,6 +72,10 @@ code {
   /* float: right; */
 }
 
+.btn-login:hover {
+  background-color: #f32958;
+}
+
 .nav-menu {
   border-top: 2px solid #e0e0e0;
   border-bottom: 2px solid #e0e0e0;
@@ -119,6 +123,10 @@ height: 44px;
   font-weight: 500;
 }
 
+.section-see-more:hover {
+  color: #df6363;
+}
+
 .adds-banner-970x50 {
   width: 970px;
   height: 50px;
@@ -147,6 +155,53 @@ height: 44px;
   margin: 0px;
 }
 
-.montserrat {
-  font-family: 'Montserrat';
+.adds-banner-300x250 {
+  width: 300px;
+  height: 250px;
+  background-color: #C4C4C4;
+  border: solid 2.2px #A7A7A7;
 }
+
+.adds-banner-300x250 h3 {
+  color: #5A5A5A;
+  font-family: 'Montserrat';
+  font-size: 28px;
+  margin: 0px;
+  text-align: center;
+}
+
+.montserrat {
+  font-family: 'Montserrat'!important;
+}
+
+
+.section-paddings {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.card-img-top:hover {
+  opacity: 0.5;
+}
+
+.slide-arrow-left {
+  cursor: pointer;
+}
+
+.dot-arrow-1 {
+  cursor: pointer;
+}
+
+.dot-arrow-2 {
+  cursor: pointer;
+}
+
+
+.slide-arrow-right {
+  cursor: pointer;
+}
+
+.img-rounder {
+  border-radius: 50%;
+}
+

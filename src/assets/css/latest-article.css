@@ -1,16 +1,21 @@
 .article-card {
     width: 22.2rem;
-    border: none;
+    border: none !important;
 }
 
 .card-body-article {
-    padding: 0px;
+    padding: 0px !important;
 }
 .card-text {
     font-size: 22px;
     font-weight: bold;
     margin: 0px;
     font-family: 'Montserrat';
+}
+
+.card-text:hover {
+    cursor: pointer;
+    color: #DA254E;
 }
 
 .autor-text {
