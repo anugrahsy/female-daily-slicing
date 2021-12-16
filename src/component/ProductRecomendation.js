@@ -1,5 +1,7 @@
 import productImage from '../assets/img/background-slice.png';
-import makeupImage1 from '../assets/img/dummy-img-2.png';
+import product1 from '../assets/img/recomendation-product1.png';
+import product2 from '../assets/img/recomendation-product2.png';
+import product3 from '../assets/img/recomendation-product3.png';
 import { AiFillStar } from 'react-icons/ai';
 
 const ProductRecomendation = () => {
@@ -22,10 +24,9 @@ const ProductRecomendation = () => {
                                 <div className="row m-0 p-0">
                                     <div className="col-md-4 p-0">
                                         <div className="card product-card">
-                                            <img src={makeupImage1} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-product m-auto" alt="..." />
+                                            <img src={product1} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-product m-auto p-3" alt="..." />
                                             <div className="card-body card-body-product mt-0">
                                                 <p className="product-category montserrat">Math skin type</p>
-                                                {/* <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon> */}
                                                 <div className="rating mt-2 d-flex align-items-center">
                                                     <span className="rating-value montserrat me-2">4.9</span>
                                                     <div className="product-rating d-flex align-items-center me-2">
@@ -36,7 +37,7 @@ const ProductRecomendation = () => {
                                                         <AiFillStar size={16} color={"#D0D0D0"} />
 
                                                     </div>
-                                                    <span className="rating-value montserrat">(72)</span>
+                                                    <span className="rating-value montserrat">(7)</span>
                                                 </div>
                                                 <p className="product-title montserrat mt-2">VAL BY VALERY THOMAS</p>
                                                 <p className="product-text montserrat mt-1">Pure Pressed Blush</p>
@@ -47,7 +48,7 @@ const ProductRecomendation = () => {
 
                                     <div className="col-md-4 p-0">
                                         <div className="card product-card">
-                                            <img src={makeupImage1} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-product m-auto" alt="..." />
+                                            <img src={product2} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-product m-auto p-3" alt="..." />
                                             <div className="card-body card-body-product mt-0">
                                                 <p className="product-category montserrat">Math skin type</p>
                                                 {/* <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon> */}
@@ -61,7 +62,7 @@ const ProductRecomendation = () => {
                                                         <AiFillStar size={16} color={"#D0D0D0"} />
 
                                                     </div>
-                                                    <span className="rating-value montserrat">(72)</span>
+                                                    <span className="rating-value montserrat">(7)</span>
                                                 </div>
                                                 <p className="product-title montserrat mt-2">VAL BY VALERY THOMAS</p>
                                                 <p className="product-text montserrat mt-1">Pure Pressed Blush</p>
@@ -71,7 +72,7 @@ const ProductRecomendation = () => {
                                     </div>
                                     <div className="col-md-4 p-0">
                                         <div className="card product-card">
-                                            <img src={makeupImage1} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-product m-auto" alt="..." />
+                                            <img src={product3} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-product m-auto p-3" alt="..." />
                                             <div className="card-body card-body-product mt-0">
                                                 <p className="product-category montserrat">Math skin type</p>
                                                 {/* <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon> */}
@@ -85,7 +86,7 @@ const ProductRecomendation = () => {
                                                         <AiFillStar size={16} color={"#D0D0D0"} />
 
                                                     </div>
-                                                    <span className="rating-value montserrat">(72)</span>
+                                                    <span className="rating-value montserrat">(7)</span>
                                                 </div>
                                                 <p className="product-title montserrat mt-2">VAL BY VALERY THOMAS</p>
                                                 <p className="product-text montserrat mt-1">Pure Pressed Blush</p>

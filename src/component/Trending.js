@@ -1,7 +1,12 @@
 import { AiFillStar } from 'react-icons/ai';
 import { HiChevronRight, HiChevronLeft } from 'react-icons/hi';
 import { GoPrimitiveDot } from 'react-icons/go';
-import makeupImage1 from '../assets/img/dummy-img-2.png';
+import product1 from '../assets/img/trending-product1.png';
+import product2 from '../assets/img/trending-product2.png';
+import product3 from '../assets/img/trending-product3.png';
+import product4 from '../assets/img/trending-product4.png';
+import product5 from '../assets/img/trending-product5.png';
+import product6 from '../assets/img/trending-product6.png';
 
 const Trending = () => {
     return (
@@ -20,7 +25,7 @@ const Trending = () => {
                     <div className="row mt-3">
                         <div className="col-md-2 p-0">
                             <div className="card trending-card">
-                                <img src={makeupImage1} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-trending m-auto" alt="..." />
+                                <img src={product1} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-trending m-auto" alt="..." />
                                 <div className="card-body card-body-trending mt-0">
                                     <div className="rating mt-2 d-flex align-items-center">
                                         <span className="rating-value montserrat me-2">4.9</span>
@@ -42,7 +47,7 @@ const Trending = () => {
                         </div>
                         <div className="col-md-2 p-0">
                             <div className="card trending-card">
-                                <img src={makeupImage1} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-trending m-auto" alt="..." />
+                                <img src={product2} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-trending m-auto" alt="..." />
                                 <div className="card-body card-body-trending mt-0">
                                     <div className="rating mt-2 d-flex align-items-center">
                                         <span className="rating-value montserrat me-2">4.9</span>
@@ -64,7 +69,7 @@ const Trending = () => {
                         </div>
                         <div className="col-md-2 p-0">
                             <div className="card trending-card">
-                                <img src={makeupImage1} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-trending m-auto" alt="..." />
+                                <img src={product3} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-trending m-auto" alt="..." />
                                 <div className="card-body card-body-trending mt-0">
                                     <div className="rating mt-2 d-flex align-items-center">
                                         <span className="rating-value montserrat me-2">4.9</span>
@@ -86,7 +91,7 @@ const Trending = () => {
                         </div>
                         <div className="col-md-2 p-0">
                             <div className="card trending-card">
-                                <img src={makeupImage1} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-trending m-auto" alt="..." />
+                                <img src={product4} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-trending m-auto" alt="..." />
                                 <div className="card-body card-body-trending mt-0">
                                     <div className="rating mt-2 d-flex align-items-center">
                                         <span className="rating-value montserrat me-2">4.9</span>
@@ -108,7 +113,7 @@ const Trending = () => {
                         </div>
                         <div className="col-md-2 p-0">
                             <div className="card trending-card">
-                                <img src={makeupImage1} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-trending m-auto" alt="..." />
+                                <img src={product5} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-trending m-auto" alt="..." />
                                 <div className="card-body card-body-trending mt-0">
                                     <div className="rating mt-2 d-flex align-items-center">
                                         <span className="rating-value montserrat me-2">4.9</span>
@@ -130,7 +135,7 @@ const Trending = () => {
                         </div>
                         <div className="col-md-2 p-0">
                             <div className="card trending-card">
-                                <img src={makeupImage1} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-trending m-auto" alt="..." />
+                                <img src={product6} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-trending m-auto" alt="..." />
                                 <div className="card-body card-body-trending mt-0">
                                     <div className="rating mt-2 d-flex align-items-center">
                                         <span className="rating-value montserrat me-2">4.9</span>

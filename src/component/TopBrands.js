@@ -1,4 +1,9 @@
-import  FemaleDailyLogo from '../assets/img/female-daily-logo.png';
+import  niveaImg from '../assets/img/brand6.png';
+import  ordinaryImg from '../assets/img/brand1.png';
+import  bodyShopImg from '../assets/img/brand2.png';
+import  skiiImg from '../assets/img/brand3.png';
+import  maybeLaterImg from '../assets/img/brand4.png';
+import  innisfreeImg from '../assets/img/brand5.png';
 
 const TopBrands = () => {
     return (
@@ -11,22 +16,22 @@ const TopBrands = () => {
                     </div>
                     <div className="row mt-2 mb-2">
                         <div className="col-md-2">
-                            <img src={FemaleDailyLogo} alt="" width="100%"/>
+                            <img className="brand-image" src={niveaImg} alt="" width="100%"/>
                         </div>
                         <div className="col-md-2">
-                            <img src={FemaleDailyLogo} alt="" width="100%"/>
+                            <img className="brand-image" src={ordinaryImg} alt="" width="100%"/>
                         </div>
                         <div className="col-md-2">
-                            <img src={FemaleDailyLogo} alt="" width="100%"/>
+                            <img className="brand-image" src={bodyShopImg} alt="" width="100%"/>
                         </div>
                         <div className="col-md-2">
-                            <img src={FemaleDailyLogo} alt="" width="100%"/>
+                            <img className="brand-image" src={skiiImg} alt="" width="100%"/>
                         </div>
                         <div className="col-md-2">
-                            <img src={FemaleDailyLogo} alt="" width="100%"/>
+                            <img className="brand-image" src={maybeLaterImg} alt="" width="100%"/>
                         </div>
                         <div className="col-md-2">
-                            <img src={FemaleDailyLogo} alt="" width="100%"/>
+                            <img className="brand-image" src={innisfreeImg} alt="" width="100%"/>
                         </div>
                     </div>
                     <div className="row mt-4">

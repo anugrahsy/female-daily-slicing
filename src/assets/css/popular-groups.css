@@ -2,6 +2,7 @@
     width: 255px;
     border: none;
     border-radius: 0.5rem !important;
+    transition: transform 330ms ease-in-out;
 }
 
 .popular-card:hover {
@@ -10,8 +11,8 @@
 }
 
 .card-img-popular {
-    width: 180px;
-    height: 180px;
+    width: 180px !important;
+    height: 180px !important;
 }
 
 .popular-title {
@@ -28,5 +29,9 @@
 font-size: 14px;
 font-weight: 440;
 
+}
+
+.popular-img-icon {
+    cursor: pointer;
 }
 

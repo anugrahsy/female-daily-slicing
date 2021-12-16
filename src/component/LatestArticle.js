@@ -20,7 +20,7 @@ const LatestArticle = (props) => {
                         <div className="col-md-6 d-flex justify-content-end">
                         </div>
                     </div>
-                    <div className="row"> {
+                    <div className="row mt-3"> {
                         newDataArticle.map((data) => (
                             <div className="col-md-4 col-sm-12 mb-3" key={data.id}>
                                 <div className="card article-card">

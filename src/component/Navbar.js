@@ -1,5 +1,6 @@
 import FemaleDailyLogo from '../assets/img/female-daily-logo.png';
 import menurBurgerIcon from '../assets/img/menu.png';
+import loginIcon from '../assets/img/login-icon.png';
 // import { BsSearch } from 'react-icons/bs';
 
 const Navbar = () => {
@@ -15,7 +16,12 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <input type="text" className="form-control mx-auto" placeholder="Search product, article, brand, etc" style={{ width: "960px", height: "38px" }} />
                         <form className="d-flex">
-                            <button className="btn-login">LOGIN / SIGNUP</button>
+                            <button className="btn-login">
+                                <div className="m-auto d-flex align-items-center justify-content-center">
+                                    <img src={loginIcon} className="me-3" width={18} height={18} alt=""></img>
+                                    <span style={{fontSize: "14px"}}>LOGIN / SIGNUP</span>
+                                </div>
+                            </button>
                         </form>
                     </div>
                 </div>

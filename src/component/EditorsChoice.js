@@ -1,8 +1,13 @@
-// import dummyImage from '../assets/img/dummy-image.png';
-import makeupImage1 from '../assets/img/dummy-img-2.png';
+import product1 from '../assets/img/editor-product1.png';
+import product2 from '../assets/img/editor-product2.png';
+import product3 from '../assets/img/editor-product3.png';
+import product4 from '../assets/img/editor-product4.png';
+import product5 from '../assets/img/editor-product5.png';
 import { AiFillStar } from 'react-icons/ai';
 
-const EditorsChoice = () => {
+const EditorsChoice = (props) => {
+    const newEditorChoice = props.editorChoice;
+    console.log('cek editor choice ', newEditorChoice);
     return (
         <div className="editors-choice-container">
             <div className="container">
@@ -30,7 +35,7 @@ const EditorsChoice = () => {
                     <div className="row mt-5">
                         <div className="col-md-2 card-col" style={{marginRight: "41px"}}>
                             <div className="card product-card">
-                                <img src={makeupImage1} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-product m-auto" alt="..." />
+                                <img src={product1} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-product m-auto p-3" alt="..." />
                                 <div className="card-body card-body-product mt-0">
                                     <p className="product-category montserrat">Math skin type</p>
                                     {/* <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon> */}
@@ -44,7 +49,7 @@ const EditorsChoice = () => {
                                             <AiFillStar size={16} color={"#D0D0D0"} />
 
                                         </div>
-                                        <span className="rating-value montserrat">(72)</span>
+                                        <span className="rating-value montserrat">(7)</span>
                                     </div>
                                     <p className="product-title montserrat mt-2">VAL BY VALERY THOMAS</p>
                                     <p className="product-text montserrat mt-1">Pure Pressed Blush</p>
@@ -54,7 +59,7 @@ const EditorsChoice = () => {
                         </div>
                         <div className="col-md-2 card-col" style={{marginRight: "41px"}}>
                             <div className="card product-card">
-                                <img src={makeupImage1} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-product m-auto" alt="..." />
+                                <img src={product2} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-product m-auto p-3" alt="..." />
                                 <div className="card-body card-body-product mt-0">
                                     <p className="product-category montserrat">Math skin type</p>
                                     {/* <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon> */}
@@ -68,7 +73,7 @@ const EditorsChoice = () => {
                                             <AiFillStar size={16} color={"#D0D0D0"} />
 
                                         </div>
-                                        <span className="rating-value montserrat">(72)</span>
+                                        <span className="rating-value montserrat">(7)</span>
                                     </div>
                                     <p className="product-title montserrat mt-2">VAL BY VALERY THOMAS</p>
                                     <p className="product-text montserrat mt-1">Pure Pressed Blush</p>
@@ -78,7 +83,7 @@ const EditorsChoice = () => {
                         </div>
                         <div className="col-md-2 card-col" style={{marginRight: "41px"}}>
                             <div className="card product-card">
-                                <img src={makeupImage1} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-product m-auto" alt="..." />
+                                <img src={product3} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-product m-auto p-3" alt="..." />
                                 <div className="card-body card-body-product mt-0">
                                     <p className="product-category montserrat">Math skin type</p>
                                     {/* <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon> */}
@@ -92,7 +97,7 @@ const EditorsChoice = () => {
                                             <AiFillStar size={16} color={"#D0D0D0"} />
 
                                         </div>
-                                        <span className="rating-value montserrat">(72)</span>
+                                        <span className="rating-value montserrat">(7)</span>
                                     </div>
                                     <p className="product-title montserrat mt-2">VAL BY VALERY THOMAS</p>
                                     <p className="product-text montserrat mt-1">Pure Pressed Blush</p>
@@ -102,7 +107,7 @@ const EditorsChoice = () => {
                         </div>
                         <div className="col-md-2 card-col" style={{marginRight: "41px"}}>
                             <div className="card product-card">
-                                <img src={makeupImage1} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-product m-auto" alt="..." />
+                                <img src={product4} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-product m-auto p-3" alt="..." />
                                 <div className="card-body card-body-product mt-0">
                                     <p className="product-category montserrat">Math skin type</p>
                                     {/* <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon> */}
@@ -116,7 +121,7 @@ const EditorsChoice = () => {
                                             <AiFillStar size={16} color={"#D0D0D0"} />
 
                                         </div>
-                                        <span className="rating-value montserrat">(72)</span>
+                                        <span className="rating-value montserrat">(7)</span>
                                     </div>
                                     <p className="product-title montserrat mt-2">VAL BY VALERY THOMAS</p>
                                     <p className="product-text montserrat mt-1">Pure Pressed Blush</p>
@@ -126,7 +131,7 @@ const EditorsChoice = () => {
                         </div>
                         <div className="col-md-2 card-col" style={{marginRight: "0px"}}>
                             <div className="card product-card">
-                                <img src={makeupImage1} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-product m-auto" alt="..." />
+                                <img src={product5} width={'50px !important'} height={'50px !important'} className="card-img-top card-img-product m-auto p-3" alt="..." />
                                 <div className="card-body card-body-product mt-0">
                                     <p className="product-category montserrat">Math skin type</p>
                                     {/* <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon> */}
@@ -140,7 +145,7 @@ const EditorsChoice = () => {
                                             <AiFillStar size={16} color={"#D0D0D0"} />
 
                                         </div>
-                                        <span className="rating-value montserrat">(72)</span>
+                                        <span className="rating-value montserrat">(7)</span>
                                     </div>
                                     <p className="product-title montserrat mt-2">VAL BY VALERY THOMAS</p>
                                     <p className="product-text montserrat mt-1">Pure Pressed Blush</p>

@@ -6,62 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-.navbar-burger {
-  position: relative;
-  float: left;
-  padding: 9px 10px;
-  margin-top: 8px;
-  margin-right: 15px;
-  margin-bottom: 8px;
-  background-color: transparent;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
-}
-
-.navbar .navbar-brand {
-  padding-top: 5px;
-}
-
-.btn-login {
-  width: 222px;
-  height: 62px;
-  color: white;
-  background-color: #DA254E;;
-  border: none;
-  float: right;
-}
-
-.nav-menu {
-  height: 48px;
-  border-top: 2px solid #e0e0e0;
-  border-bottom: 2px solid #e0e0e0;
-  padding: 10px;
-  text-align: center;
-}
-
-
- .thumbnail {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-  transition: 0.3s;
-  min-width: 40%;
-  border-radius: 5px;
-}
-
-.thumbnail-description {
-  min-height: 40px;
-}
-
-.thumbnail:hover {
-  cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
-} */
 
 .btn-login {
   width: 222px;
@@ -205,3 +149,174 @@ height: 44px;
   border-radius: 50%;
 }
 
+.brand-image {
+  transition: transform 330ms ease-in-out;
+}
+
+.brand-image:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+}
+
+.latest-video-frame:hover {
+  cursor: pointer !important;
+}
+
+
+li {
+  list-style-type: none;
+}
+.ic-sosmed {
+  font-size: 32px;
+}
+.ic-sister-fd{
+  font-size: 130px;
+  height: 110px;
+  color: #DB284E;
+}
+.ic-sister-gb{
+  font-size: 91px;
+  height: 80px;
+  color: #000;
+}
+.ic-sister-bs{
+  font-size: 92px;
+  height: 80px;
+  color: #1C8882;
+}
+.ic-sister-md{
+  font-size: 131px;
+  height: 110px;
+  color: #DB284E;
+}
+.ic-arrow-footer{
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40px;
+  width: 40px;
+  display: block;
+}
+.footer-wrapper {
+  border-top: 1px solid #e0e0e0;
+  width: 100%;
+  font-family: Roboto, sans-serif;
+}
+.taste-footer-text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.5;
+  color: black;
+  margin: 0 0 15px;
+}
+.footer-row1 {
+  display: flex;
+  flex-flow: row;
+  max-width: 1292px;
+  margin: 0 auto;
+  padding: 30px 24px 20px 24px;
+}
+.footer-row1 ul{
+  padding: 0px;
+  margin: 0px
+}
+.footer-row2 {
+  display: flex;
+  flex-flow: row;
+  max-width: 1292px;
+  margin: 0 auto;
+  padding: 10px 24px 60px 24px;
+}
+.taste-footer-row3{
+  max-width: 1292px;
+  margin: 0 auto;
+  padding: 16px 0px ;
+}
+.taste-footer-col1 {
+  width: 25%;
+}
+.footer-row2-container {
+  width: 1292px;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px 24px;
+  justify-content: space-between
+}
+.link-menu {
+  margin: 0px 0 10px 0;
+  width: 25%;
+}
+.link-menu li a{
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 2.5;
+  padding: 10px;
+  color: #000;
+  text-decoration:none
+}
+
+.link-menu li a:hover {
+  color: #DA254E;
+}
+.taste-footer-header1 {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4a4a4a;
+  text-align: center;
+  margin: 0px;
+}
+.taste-footer-sosmed-list {
+  display: flex;
+  flex-flow: row;
+  width: 25%;
+  align-items: center;
+}
+.taste-footer-sosmed-list a{
+  text-decoration: none;
+}
+.taste-footer-sosmed-list li{
+  margin: 0 20px 0 0;
+}
+.taste-footer-store {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+  margin-bottom: 35px;
+}
+.social-footer-logo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 32px;
+}
+.social-footer-logo a{
+  text-decoration: none;
+  padding: 0px 22.5px;
+  margin-top: -15px;
+}
+.social-footer-logo a:hover{
+  cursor:pointer;
+}
+.rounded-icon-border {
+  width: 40px;
+  height: 40px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  position: relative;
+}
+.rounded-icon-border:hover {
+  cursor: pointer;
+}
+
+.social-footer {
+  padding: 20px 10px 20px 10px;
+}
+
+.female-footer-logo {
+  cursor: pointer;
+}

@@ -15,6 +15,7 @@ const Home = () => {
     // const [userData, setUserData] = useState(null);
     const [latestArticleData, setLatestArticleData] = useState(null);
     const [latestReviewData, setLatestRevieweData] = useState(null);
+    const [editorsChoiceData, setEditorsChoiceData] = useState(null);
     // const [userData, setUserData] = useState(null);
     // const [error, setError] = useState(null);
     // const [loading, setLoading] = useState(true);
@@ -24,8 +25,10 @@ const Home = () => {
             .then(res => {
                 const dataArticle = res.data["latest articles"]
                 const reviewData = res.data["latest review"]
+                const editorData = res.data["editor's choice"]
                 generateArticleData(dataArticle);
                 generateReviewData(reviewData);
+                generateEditorsData(editorData);
 
                 console.log('data', res.data);
             });
@@ -36,6 +39,24 @@ const Home = () => {
         //     setLoading(false);
         // });
     }
+
+    const generateEditorsData = (editorData) => {
+        // console.log('BNNNBBNB', dataArticle);
+        let editorArray = [];
+        editorData.forEach((element, i) => {
+            // console.log('banyak', i);
+            if (i < 6) {
+                element.id = i;
+                console.log('element', element);
+                editorArray.push(element);
+                i++;
+            }
+
+        });
+        console.log('new array', editorArray);
+        setEditorsChoiceData(editorArray);
+    }
+
 
     const generateArticleData = (dataArticle) => {
         // console.log('BNNNBBNB', dataArticle);
@@ -79,8 +100,8 @@ const Home = () => {
 
     return (
         console.log('apa isi artikel', latestArticleData),
-        <div className="home">
-            <EditorsChoice></EditorsChoice>
+        <div className="home-container">
+            {editorsChoiceData && <EditorsChoice editorsChoiceData={editorsChoiceData}></EditorsChoice>}
             <ProductRecomendation></ProductRecomendation>
             {latestArticleData && <LatestArticle latestArticleData={latestArticleData}></LatestArticle>}
             {latestReviewData && <LatestReview lastestReviewData={latestReviewData}></LatestReview>}

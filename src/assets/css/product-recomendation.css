@@ -31,6 +31,7 @@
     width: 12.3rem;
     height: 22.2rem;
     border-radius: 10px !important;
+    transition: transform 330ms ease-in-out;
 }
 
 .product-card:hover {
