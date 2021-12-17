@@ -105,6 +105,10 @@ const Home = () => {
         dataReview.forEach((element, i) => {
             if (i < 2) {
                 element.id = i;
+                const joinProfile = element.profile.join();
+                console.log('join', joinProfile);
+                const newProfile = joinProfile.replace(',', ' ')
+                console.log('new Profile', newProfile);
                 reviewArray.push(element);
                 i++;
             }

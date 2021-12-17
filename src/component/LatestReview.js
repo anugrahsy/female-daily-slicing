@@ -56,7 +56,7 @@ const LatestReview = (props) => {
                                                 </div>
                                                 <div className="testimoni-content">
                                                     <h6 className="mt-3 review-author">{data.user}</h6>
-                                                    <p className="author-text">{data.profile.join()}</p>
+                                                    <p className="author-text">{data.profile.join().replace(',', ' ').replace(',', ' ').replace(',', ' ')}</p>
                                                 </div>
                                             </div>
                                         </div>
