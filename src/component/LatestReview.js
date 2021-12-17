@@ -1,11 +1,11 @@
 import { AiFillStar } from 'react-icons/ai';
 import { HiChevronRight, HiChevronLeft } from 'react-icons/hi';
 import { GoPrimitiveDot } from 'react-icons/go';
-
+import userImg1 from '../assets/img/editor-user-1.png';
+import userImg2 from '../assets/img/editor-user-2.png';
 
 const LatestReview = (props) => {
     const newReviewData = props.lastestReviewData;
-    // console.log('cek review data', latestReviewData);
     return (
         <div className="latest-review-component">
             <div className="container">
@@ -36,7 +36,7 @@ const LatestReview = (props) => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <hr className="card-review-line mt-2 ßmb-2"></hr>
+                                            <hr className="card-review-line mt-2"></hr>
                                             <div className="rating d-flex align-items-center">
                                                 <div className="review-rating d-flex align-items-center me-2">
                                                     <AiFillStar size={16} color={"#DA254E"} />
@@ -47,27 +47,30 @@ const LatestReview = (props) => {
                                                 </div>
                                                 <span className="ms-auto revire-time-tex montserrat">2 Hours ago</span>
                                             </div>
-                                            <div className="card-body card-body-article mt-3">
+                                            <div className="card-body card-body-article mt-3 mb-3">
                                                 <p className="card-review-description montserrat">{data.comment} ... <span className="read-more">Read more</span></p>
                                             </div>
-                                        </div>
-                                        <div className="testimoni-user justify-content-center text-center">
-                                            <div className="testimoni-profile">
-                                                <img src={data.product.image} className="rounded-circle mt-auto" alt="" width="30" />
-                                            </div>
-                                            <div className="testimoni-content">
-                                                <h6>{data.user}</h6>
-                                                <p>{data.profile.join()}</p>
+                                            <div className="testimoni-user justify-content-center text-center">
+                                                <div className="testimoni-profile">
+                                                    <img src={data.id === 0 ? userImg2 : (data.id === 1 ? userImg1 : "")} className="rounded-circle mt-auto" alt="" width="60" />
+                                                </div>
+                                                <div className="testimoni-content">
+                                                    <h6 className="mt-3 review-author">{data.user}</h6>
+                                                    <p className="author-text">{data.profile.join()}</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 ))}
                             </div>
-                            <div className="row">
+                            <div className="row" style={{marginTop: "130px"}}>
                                 <div className="slide-item d-flex justify-content-center">
-                                    <div className="slide-wraper d-flex align-items-center">
+                                    <div className="slide-wraper d-flex align-items-center me-4">
                                         <HiChevronLeft className="slide-arrow-right m-2" size={20} color={"#F4BEC9"}></HiChevronLeft>
                                         <GoPrimitiveDot className="dot-arrow-1 m-2" color={"#DB284E"}></GoPrimitiveDot>
+                                        <GoPrimitiveDot className="dot-arrow-2 m-2" color={"#F4BEC9"}></GoPrimitiveDot>
+                                        <GoPrimitiveDot className="dot-arrow-2 m-2" color={"#F4BEC9"}></GoPrimitiveDot>
+                                        <GoPrimitiveDot className="dot-arrow-2 m-2" color={"#F4BEC9"}></GoPrimitiveDot>
                                         <GoPrimitiveDot className="dot-arrow-2 m-2" color={"#F4BEC9"}></GoPrimitiveDot>
                                         <HiChevronRight className="slide-arrow-ledt m-2" size={20} color={"#DB284E"}></HiChevronRight>
                                     </div>

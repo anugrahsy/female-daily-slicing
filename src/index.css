@@ -166,45 +166,12 @@ height: 44px;
 li {
   list-style-type: none;
 }
-.ic-sosmed {
-  font-size: 32px;
-}
-.ic-sister-fd{
-  font-size: 130px;
-  height: 110px;
-  color: #DB284E;
-}
-.ic-sister-gb{
-  font-size: 91px;
-  height: 80px;
-  color: #000;
-}
-.ic-sister-bs{
-  font-size: 92px;
-  height: 80px;
-  color: #1C8882;
-}
-.ic-sister-md{
-  font-size: 131px;
-  height: 110px;
-  color: #DB284E;
-}
-.ic-arrow-footer{
-  font-size: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 40px;
-  width: 40px;
-  display: block;
-}
 .footer-wrapper {
   border-top: 1px solid #e0e0e0;
   width: 100%;
   font-family: Roboto, sans-serif;
 }
-.taste-footer-text {
+.footer-download-text {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.5;
@@ -229,12 +196,7 @@ li {
   margin: 0 auto;
   padding: 10px 24px 60px 24px;
 }
-.taste-footer-row3{
-  max-width: 1292px;
-  margin: 0 auto;
-  padding: 16px 0px ;
-}
-.taste-footer-col1 {
+.footer-download {
   width: 25%;
 }
 .footer-row2-container {
@@ -262,26 +224,8 @@ li {
 .link-menu li a:hover {
   color: #DA254E;
 }
-.taste-footer-header1 {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #4a4a4a;
-  text-align: center;
-  margin: 0px;
-}
-.taste-footer-sosmed-list {
-  display: flex;
-  flex-flow: row;
-  width: 25%;
-  align-items: center;
-}
-.taste-footer-sosmed-list a{
-  text-decoration: none;
-}
-.taste-footer-sosmed-list li{
-  margin: 0 20px 0 0;
-}
-.taste-footer-store {
+
+.footer-download-store {
   display: flex;
   justify-content: space-between;
   width: 280px;

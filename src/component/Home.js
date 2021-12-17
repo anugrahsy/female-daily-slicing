@@ -9,16 +9,11 @@ import LatestReview from "./LatestReview";
 import Trending from "./Trending";
 import PopularGroups from "./popularGroups";
 
-
 const Home = () => {
 
-    // const [userData, setUserData] = useState(null);
     const [latestArticleData, setLatestArticleData] = useState(null);
     const [latestReviewData, setLatestRevieweData] = useState(null);
     const [editorsChoiceData, setEditorsChoiceData] = useState(null);
-    // const [userData, setUserData] = useState(null);
-    // const [error, setError] = useState(null);
-    // const [loading, setLoading] = useState(true);
 
     const fetchApi = () => {
         Api.get('/wp')
@@ -30,7 +25,6 @@ const Home = () => {
                 generateReviewData(reviewData);
                 generateEditorsData(editorData);
 
-                console.log('data', res.data);
             });
         // .catch(err => {
         //     setError(err.message);
@@ -41,54 +35,81 @@ const Home = () => {
     }
 
     const generateEditorsData = (editorData) => {
-        // console.log('BNNNBBNB', dataArticle);
         let editorArray = [];
+        let product = [
+            {
+                product_title: "JUICE BEAUTY",
+                type_product: "Phyto-pigments flawless serum",
+                color: "Rosy Beige",
+                image_code: 0,
+                margin_right: 41,
+            },
+            {
+                product_title: "VAL BY VALERY THOMAS",
+                type_product: "Phyto-pigments flawless serum",
+                color: "Rosy Beige",
+                image_code: 1,
+                margin_right: 41,
+            },
+            {
+                product_title: "JUICE BEAUTY",
+                type_product: "Phyto-pigments flawless serum",
+                color: "",
+                image_code: 2,
+                margin_right: 41,
+            },
+            {
+                product_title: "JUICE BEAUTY",
+                type_product: "Phyto-pigments flawless serum",
+                color: "Rosy Beige",
+                image_code: 3,
+                margin_right: 41,
+            },
+            {
+                product_title: "JUICE BEAUTY",
+                type_product: "Phyto-pigments flawless serum",
+                color: "Rosy Beige",
+                image_code: 4,
+                margin_right: 0
+            }
+        ]
+        
         editorData.forEach((element, i) => {
-            // console.log('banyak', i);
-            if (i < 6) {
+            if (i < 5) {
                 element.id = i;
-                console.log('element', element);
+                element.jobs = "Senior Editor"
+                element.product = product[i]
                 editorArray.push(element);
                 i++;
             }
 
         });
-        console.log('new array', editorArray);
         setEditorsChoiceData(editorArray);
     }
 
-
     const generateArticleData = (dataArticle) => {
-        // console.log('BNNNBBNB', dataArticle);
         let newArray = [];
         dataArticle.forEach((element, i) => {
-            // console.log('banyak', i);
             if (i < 6) {
                 element.id = i;
-                console.log('element', element);
                 newArray.push(element);
                 i++;
             }
 
         });
-        console.log('new array', newArray);
         setLatestArticleData(newArray);
     }
 
     const generateReviewData = (dataReview) => {
-        // console.log('BNNNBBNB', dataReview);
         let reviewArray = [];
         dataReview.forEach((element, i) => {
-            // console.log('banyak', i);
             if (i < 2) {
                 element.id = i;
-                console.log('element', element);
                 reviewArray.push(element);
                 i++;
             }
 
         });
-        console.log('new array', reviewArray);
         setLatestRevieweData(reviewArray);
     }
 
@@ -99,7 +120,6 @@ const Home = () => {
     }, []);
 
     return (
-        console.log('apa isi artikel', latestArticleData),
         <div className="home-container">
             {editorsChoiceData && <EditorsChoice editorsChoiceData={editorsChoiceData}></EditorsChoice>}
             <ProductRecomendation></ProductRecomendation>

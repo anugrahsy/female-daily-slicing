@@ -9,3 +9,33 @@
     padding-top: 0px;
 }
 
+.editor-title {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #313131;
+}
+
+.editor-jobs {
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    color: #8b8b8b;
+}
+
+/* .card-editor {
+    position: absolute;
+    left: 180px;
+    top: 585px;
+    bottom: 100;
+    z-index: 1;
+}
+ */
+
+ .card-editor {
+     position: absolute;
+     z-index: 20;
+     left: 20px;
+     top: -42px;
+     bottom: 10;
+ }

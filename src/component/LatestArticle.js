@@ -1,6 +1,5 @@
 const LatestArticle = (props) => {
     const newDataArticle = props.latestArticleData
-    console.log('cekuiuui ', newDataArticle);
     return (
         <div className="latest-article-component mt-5 mb-5">
             <div className="container">

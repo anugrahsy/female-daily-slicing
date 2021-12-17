@@ -10,22 +10,22 @@ const Footer = () => {
             <div className="footer-wrapper">
                 <div className="footer-row1">
                     <ul className="link-menu">
-                        <li><a href="/" target="_self">About Us</a></li>
+                        <li><a href="/" target="/">About Us</a></li>
                         <li><a href="/">Feedback</a></li>
                         <li><a href="/">Contact</a></li>
                     </ul>
                     <ul className="link-menu">
                         <li><a href="/">Terms &amp; Conditions</a></li>
-                        <li><a href="/" target="_self">Privacy Policy</a></li>
-                        <li><a href="/" target="_self">Help</a></li>
+                        <li><a href="/" target="/">Privacy Policy</a></li>
+                        <li><a href="/" target="/">Help</a></li>
                     </ul>
                     <ul className="link-menu">
                         <li><a href="/">Awards</a></li>
                         <li><a href="/">Newsletter</a></li>
                     </ul>
-                    <div className="taste-footer-col1">
-                        <p className="taste-footer-text">Download Our Mobile App</p>
-                        <div className="taste-footer-store">
+                    <div className="footer-download">
+                        <p className="footer-download-text">Download Our Mobile App</p>
+                        <div className="footer-download-store">
                             <a href="https://itunes.apple.com/id/app/female-daily-beauty-review/id1160742672?l=id&amp;mt=8"><img src="https://s3-ap-southeast-1.amazonaws.com/assets.femaledaily.com/web-assets/btn_appstore.png" alt="Button Appstore"></img></a>
                             <a href="https://play.google.com/store/apps/details?id=com.fdbr.android&amp;hl=en_GB"><img src="https://s3-ap-southeast-1.amazonaws.com/assets.femaledaily.com/web-assets/btn_playstore.png" alt="Button Playstore"></img></a>
                         </div>
@@ -45,6 +45,15 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="footer-add">
+            <div className="adds-banner">
+                            <div className="col-md-12 mt-3">
+                                <div className="adds-banner-970x50 mx-auto d-flex align-items-center justify-content-center">
+                                    <h3>Top Frame 970x50,486x60,320x50</h3>
+                                </div>
+                            </div>
+                        </div>
             </div>
         </div>
     )
