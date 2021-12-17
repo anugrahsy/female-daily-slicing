@@ -6,7 +6,7 @@ https://github.com/facebook/create-react-app).
 
 LIVE DEMO https://female-daily-landing-page.herokuapp.com/
 
-<a href="https://female-daily-landing-page.herokuapp.com/"><h5>LIVE DEMO</h5></a>
+<a href="https://female-daily-landing-page.herokuapp.com/"><h2>LIVE DEMO</h2></a>
 
 ## 1. Clone Project
 
