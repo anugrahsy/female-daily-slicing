@@ -13,12 +13,19 @@ Deploy aplikasi di Heroku https://female-daily-landing-page.herokuapp.com/
 
 clone project berdasarkan url https://github.com/anugrahsy/female-daily-slicing.git
 
-## 2. NPM Install
+## 2. NPM Isntall
+
+```bash
+$ npm install
+```
+Instal terlebih dahulu beberapa paket library yang digunakan didalam project
+
+## 3. React Run Apps
 
 ```bash
 $ npm start
 ```
-pastikan sudah berada dalam directory project untuk run aplikasi
+Pastikan sudah berada dalam directory project untuk run aplikasi
 
 # SCRENSHOOT PROJECT
 
