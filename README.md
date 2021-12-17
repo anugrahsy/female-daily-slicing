@@ -11,7 +11,7 @@ Deploy aplikasi di Heroku https://female-daily-landing-page.herokuapp.com/
 
 ## 1. Clone Project
 
-copy url 
+clone project berdasarkan url https://github.com/anugrahsy/female-daily-slicing.git
 
 ## 2. NPM Install
 
