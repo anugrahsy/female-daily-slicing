@@ -1,7 +1,5 @@
 # Female Daily Slicing Task
 
-https://github.com/facebook/create-react-app).
-
 # DEMO PROJECT
 
 <a href="https://female-daily-landing-page.herokuapp.com/"><h3 style="color:blue;">LIVE DEMO</h3></a>
