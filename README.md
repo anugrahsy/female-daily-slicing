@@ -18,7 +18,7 @@ $ npm start"
 pastikan sudah berada dalam directory project untuk run aplikasi
 
 
-<img src="images/git-tut10.png" alt="">
+<img src="src/assets/img/female-landing.png" alt="">
 
 # SCRENSHOOT PROJECT
 
