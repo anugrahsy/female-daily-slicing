@@ -1,6 +1,6 @@
 # Female Daily Slicing Task
 
-# DEMO PROJECT
+## DEMO PROJECT
 
 <a href="https://female-daily-landing-page.herokuapp.com/"><h3 style="color:blue;">LIVE DEMO</h3></a>
 
@@ -16,7 +16,7 @@ clone project berdasarkan url https://github.com/anugrahsy/female-daily-slicing.
 ```bash
 $ npm install
 ```
-Instal terlebih dahulu beberapa paket library yang digunakan didalam project
+Install terlebih dahulu beberapa paket library yang digunakan didalam project
 
 ## 3. React Run Apps
 
