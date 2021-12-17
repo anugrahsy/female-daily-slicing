@@ -87,9 +87,6 @@ const LatestReview = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="row">
-
-                    </div>
                 </div>
             </div>
         </div>
