@@ -2,11 +2,24 @@
 
 https://github.com/facebook/create-react-app).
 
+# DEMO PROJECT
+
 LIVE DEMO https://female-daily-landing-page.herokuapp.com/
 
-### `npm start`
+## 1. Clone Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+copy url 
+
+## 2. NPM Install
+
+```bash
+$ npm start"
+```
+pastikan sudah berada dalam directory project untuk run aplikasi
+
+
+<img src="images/git-tut10.png" alt="">
+
+# SCRENSHOOT PROJECT
 
 
